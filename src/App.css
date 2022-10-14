@@ -1,0 +1,212 @@
+.cardHolder {
+  margin: 20px auto;
+}
+.confessionCard {
+  background-color: dodgerblue;
+  width: 70%;
+  margin: 30px;
+  padding: 5px;
+  border-radius: 23px;
+}
+.postTitle {
+  color: azure;
+  margin: 10px auto;
+  /* background-color: #191919; */
+  display: table;
+  font-size: large;
+  border-radius: 23px;
+  padding: 10px;
+}
+
+.postMessage {
+  margin: auto;
+  margin-top: 10px;
+  /* background-color: #191919;
+   */
+  width: 70%;
+  /* background-color: rgb(224, 100, 224); */
+  background-color: wheat;
+  border-radius: 23px;
+  border-bottom-right-radius: 0;
+  font-weight: bold;
+  border-bottom-left-radius: 0;
+  border-bottom: 4px double white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.postMessage:hover {
+  background-color: black;
+  color: white;
+}
+
+.moreInfo {
+  margin-top: 30px;
+  text-align: left;
+  background-color: black;
+  border-radius: 23px;
+  display: table;
+}
+
+.moreInfo b {
+  margin: 10px;
+  font-weight: lighter;
+  color: aliceblue;
+}
+
+.moreInfo b:nth-child(2),
+b:nth-child(3) {
+  color: gray;
+}
+
+.moreInfo b:nth-child(2):hover,
+b:nth-child(3):hover {
+  color: white;
+}
+
+.routeHolder {
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+.pageTitle {
+  color: white;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* submit form */
+
+label {
+  margin-top: 40px;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 50px;
+  font-size: large;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: wheat;
+  width: 52%;
+}
+
+input[type="submit"] {
+  font-weight: bolder;
+  background-color: dodgerblue;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.userInfo {
+  color: #191919;
+  text-align: center;
+}
+
+.userInfo:hover {
+  color: aliceblue;
+  cursor: not-allowed;
+}
+
+.singlePostContainer {
+  text-align: center;
+}
+
+.commentsHolder {
+  margin-top: 20px;
+  height: 300px;
+  overflow-y: scroll;
+  font-weight: bold;
+}
+
+.singleComment {
+  color: black;
+  width: 80%;
+  background-color: aliceblue;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 23px;
+}
+
+.singleComment p {
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.myCommentStyle {
+  border-bottom: 4px double red;
+  border-bottom-right-radius: 0;
+}
+
+.otherCommentStyle {
+  border-bottom: 4px double greenyellow;
+  border-bottom-left-radius: 0;
+}
+
+.openLogo:hover {
+  transform: scaleX(0.5);
+  border-bottom: 4px solid greenyellow;
+}
+
+.deletePost img {
+  margin-top: 20px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.deletePost img:hover {
+  border-bottom: 3px solid red;
+}
+
+.postIDonPost {
+  display: table;
+  margin-top: 10px;
+  color: dodgerblue;
+  background-color: #191919;
+  border-radius: 23px;
+  padding: 5px 7px;
+}
+
+.postIDonPost:hover {
+  color: white;
+}
+
+.settingsPage {
+  min-height: 300px;
+  background-color: dodgerblue;
+  padding-left: 10px;
+}
+
+.settingsPage p {
+  color: white;
+  font-weight: bolder;
+}
+
+.adminSection {
+  text-align: center;
+}
+
+.adminSection input[type="submit"] {
+  background-color: red;
+}
+
+.adminSection input[type="submit"]:hover {
+  background-color: green;
+  color: white;
+}

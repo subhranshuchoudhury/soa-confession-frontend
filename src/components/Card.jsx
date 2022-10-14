@@ -15,11 +15,7 @@ const Card = ({ post }) => {
   const deleteThePost = async () => {
     const options = {
       method: "DELETE",
-      url: `${
-        window.location.protocol === "http:"
-          ? "https://link-server-proxy-mode.herokuapp.com/"
-          : ""
-      }https://soa-confession-backend.vercel.app/244688/posts`,
+      url: `https://link-server-proxy-mode.herokuapp.com/https://soa-confession-backend.vercel.app/244688/posts`,
       data: { id: post._id, userid: localStorage.getItem("userID") },
     };
 

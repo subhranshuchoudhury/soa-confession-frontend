@@ -3,6 +3,9 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
+      <div className="anonymous_logo">
+        <img alt="logo_anonymous" src="/anonymousFace.png" />
+      </div>
       <Outlet />
       <div style={{ marginTop: "100px" }} className="spacer"></div>
       <nav className="fixed-bottom">

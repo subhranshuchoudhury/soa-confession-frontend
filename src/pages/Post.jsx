@@ -14,11 +14,7 @@ const Post = () => {
     event.preventDefault();
     const options = {
       method: "POST",
-      url: `${
-        window.location.protocol === "http:"
-          ? "https://link-server-proxy-mode.herokuapp.com/"
-          : ""
-      }https://soa-confession-backend.vercel.app/244688/comments`,
+      url: `https://link-server-proxy-mode.herokuapp.com/https://soa-confession-backend.vercel.app/244688/comments`,
       data: {
         username: localStorage.getItem("userName"),
         userid: localStorage.getItem("userID"),

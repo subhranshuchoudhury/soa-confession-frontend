@@ -1,9 +1,16 @@
+.anonymous_logo {
+  text-align: center;
+}
+
+.anonymous_logo img {
+  height: 150px;
+}
 .cardHolder {
   margin: 20px auto;
 }
 .confessionCard {
   background-color: dodgerblue;
-  width: 70%;
+  width: 90%;
   margin: 30px;
   padding: 5px;
   border-radius: 23px;
@@ -23,7 +30,7 @@
   margin-top: 10px;
   /* background-color: #191919;
    */
-  width: 70%;
+  width: 80%;
   /* background-color: rgb(224, 100, 224); */
   background-color: wheat;
   border-radius: 23px;
@@ -75,7 +82,7 @@ nav {
 
 .pageTitle {
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -99,7 +106,8 @@ textarea {
   outline: none;
   padding: 10px;
   background-color: wheat;
-  width: 52%;
+  width: 80%;
+  border-radius: 23px;
 }
 
 input[type="submit"] {
@@ -175,8 +183,7 @@ input[type="submit"]:hover {
 }
 
 .postIDonPost {
-  display: table;
-  margin-top: 10px;
+  margin-top: 20px;
   color: dodgerblue;
   background-color: #191919;
   border-radius: 23px;
@@ -209,4 +216,12 @@ input[type="submit"]:hover {
 .adminSection input[type="submit"]:hover {
   background-color: green;
   color: white;
+}
+
+.settingsPageUserDetails {
+  display: table;
+  border-radius: 23px;
+  background-color: #191919;
+  padding: 10px;
+  cursor: none;
 }

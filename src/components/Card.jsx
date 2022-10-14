@@ -68,6 +68,7 @@ const Card = ({ post }) => {
         </b>
         <b title="posted at">⌚:{post.timestamp}</b>
       </div>
+      <br />
       <b className="postIDonPost" title="encryption key">
         🔐:{post._id}
       </b>

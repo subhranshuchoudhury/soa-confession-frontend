@@ -58,23 +58,28 @@ const Settings = () => {
       </div>
       <div className="settingsPage">
         <p>
-          Anonymous Name:{" "}
-          <b style={{ color: "black" }}>{localStorage.getItem("userName")}</b>
+          Anonymous Name: <br />
+          <b className="settingsPageUserDetails">
+            {localStorage.getItem("userName")}
+          </b>
         </p>
         <p>
-          Anonymous ID:{" "}
-          <b style={{ color: "black" }}>{localStorage.getItem("userID")}</b>
+          Anonymous ID: <br />
+          <b className="settingsPageUserDetails">
+            {localStorage.getItem("userID")}
+          </b>
         </p>
+        <p>New Anonymous Identity:</p>
         {Creating ? <LoaderSpinner /> : null}
         <img
           onClick={() => userCreator()}
           className="send-icon navIcon"
           style={{ cursor: "pointer" }}
-          title="reset user."
+          title="click to reset user."
           alt="reset user."
           src="https://img.icons8.com/bubbles/100/000000/recurring-appointment.png"
         />
-        <ol>
+        <ol style={{ color: "white" }}>
           <li>This website is under development.</li>
           <li>
             faq: Am i anonymous?: not completely but i can guarantee no one of
